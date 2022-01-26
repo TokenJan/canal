@@ -30,6 +30,11 @@
             <email>in355hz@gmail.com</email>
             <timezone>8</timezone>
         </developer>
+        <developer>
+            <name>TokenJan</name>
+            <email>jiahuan.yang@outlook.com</email>
+            <timezone>8</timezone>
+        </developer>
     </developers>
 
     <licenses>
@@ -40,9 +45,9 @@
     </licenses>
 
     <scm>
-        <url>git@github.com:alibaba/canal.git</url>
-        <connection>scm:git:git@github.com:alibaba/canal.git</connection>
-        <developerConnection>scm:git:git@github.com:alibaba/canal.git</developerConnection>
+        <url>git@github.com:TokenJan/canal.git</url>
+        <connection>scm:git:git@github.com:TokenJan/canal.git</connection>
+        <developerConnection>scm:git:git@github.com:TokenJan/canal.git</developerConnection>
     </scm>
 
     <repositories>
