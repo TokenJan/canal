@@ -127,6 +127,7 @@ public class RdbAdapter implements OuterAdapter {
         dataSource.setUseUnfairLock(true);
 
         // 每次获取连接检查连接的有效性
+        dataSource.setValidationQuery("select 1");
         dataSource.setTestOnBorrow(true);
         // List<String> array = new ArrayList<>();
         // array.add("set names utf8mb4;");
