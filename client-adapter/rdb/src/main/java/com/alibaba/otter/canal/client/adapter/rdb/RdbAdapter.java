@@ -125,6 +125,9 @@ public class RdbAdapter implements OuterAdapter {
         dataSource.setTimeBetweenEvictionRunsMillis(60000);
         dataSource.setMinEvictableIdleTimeMillis(300000);
         dataSource.setUseUnfairLock(true);
+
+        // 每次获取连接检查连接的有效性
+        dataSource.setTestOnBorrow(true);
         // List<String> array = new ArrayList<>();
         // array.add("set names utf8mb4;");
         // dataSource.setConnectionInitSqls(array);
